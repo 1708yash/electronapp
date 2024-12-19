@@ -1,0 +1,72 @@
+# Node modules
+node_modules/
+
+# Build artifacts (Electron Builder, Electron Packager, etc.)
+dist/
+build/
+release/
+out/
+*.exe
+*.dmg
+*.deb
+*.rpm
+*.zip
+*.7z
+
+# Debug files
+*.log
+*.bak
+*.swp
+*.swo
+*.DS_Store
+.DS_Store
+
+# Temporary files and directories
+tmp/
+temp/
+.tmp/
+.temp/
+
+# IDE specific files
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sdf
+*.opensdf
+*.dbmdl
+*.DotSettings.user
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Coverage data
+coverage/
+
+# Optional: Ignore environment files (if you use them)
+.env
+.env.*
+
+# Optional: Ignore debug logs
+debug.log
+
+# Optional: Ignore specific build outputs if needed
+# my-app-win32-x64/
+# my-app-darwin-x64/
+# my-app-linux-x64/
+
+# Optional: Ignore packaged app resources (if you don't want to track them)
+# resources/app.asar
+
+# Ignore yarn lock file if using npm
+yarn.lock
+
+# Ignore pnpm lock file if using npm or yarn
+pnpm-lock.yaml
